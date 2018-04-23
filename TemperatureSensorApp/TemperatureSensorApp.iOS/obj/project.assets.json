@@ -102,18 +102,6 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Json"
-        ],
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        }
-      },
       "Xamarin.Forms/2.5.1.444934": {
         "type": "package",
         "compile": {
@@ -244,7 +232,6 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Auth": "1.6.0.2",
           "Xamarin.Forms": "2.5.1.444934"
         },
         "compile": {
@@ -342,18 +329,6 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Json"
-        ],
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        }
-      },
       "Xamarin.Forms/2.5.1.444934": {
         "type": "package",
         "compile": {
@@ -484,7 +459,6 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Auth": "1.6.0.2",
           "Xamarin.Forms": "2.5.1.444934"
         },
         "compile": {
@@ -582,18 +556,6 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Json"
-        ],
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        }
-      },
       "Xamarin.Forms/2.5.1.444934": {
         "type": "package",
         "compile": {
@@ -724,7 +686,6 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Auth": "1.6.0.2",
           "Xamarin.Forms": "2.5.1.444934"
         },
         "compile": {
@@ -822,18 +783,6 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Auth/1.6.0.2": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Json"
-        ],
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
-        }
-      },
       "Xamarin.Forms/2.5.1.444934": {
         "type": "package",
         "compile": {
@@ -964,7 +913,6 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Auth": "1.6.0.2",
           "Xamarin.Forms": "2.5.1.444934"
         },
         "compile": {
@@ -1149,34 +1097,6 @@
         "lib/netstandard1.0/ImageCircle.Forms.Plugin.Abstractions.xml",
         "xam.plugins.forms.imagecircle.2.0.2.nupkg.sha512",
         "xam.plugins.forms.imagecircle.nuspec"
-      ]
-    },
-    "Xamarin.Auth/1.6.0.2": {
-      "sha512": "tSRTHDKTLK+YC7JGX8M8jca5RE9PcHZpamLXkPP2TGmoQULIjtwy/gxlaUFb9cAGFbSvTMCm65IAi+8GvvcQ+g==",
-      "type": "package",
-      "path": "xamarin.auth/1.6.0.2",
-      "files": [
-        "lib/MonoAndroid10/Xamarin.Auth.dll",
-        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
-        "lib/netstandard1.0/Xamarin.Auth.dll",
-        "lib/netstandard1.6/Xamarin.Auth.dll",
-        "lib/portable-net45 wp8 wpa81 win8 MonoAndroid10 MonoTouch10 XamarinIOS10/Xamarin.Auth.dll",
-        "lib/uap10.0/Xamarin.Auth.dll",
-        "lib/uap10.0/Xamarin.Auth.pri",
-        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "lib/win81/Xamarin.Auth.dll",
-        "lib/win81/Xamarin.Auth.pri",
-        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xaml",
-        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xbf",
-        "lib/win81/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "lib/wp8/Xamarin.Auth.dll",
-        "lib/wpa81/Xamarin.Auth.dll",
-        "lib/wpa81/Xamarin.Auth.pri",
-        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xaml",
-        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xbf",
-        "lib/wpa81/Xamarin.Auth/Xamarin.Auth.xr.xml",
-        "xamarin.auth.1.6.0.2.nupkg.sha512",
-        "xamarin.auth.nuspec"
       ]
     },
     "Xamarin.Forms/2.5.1.444934": {

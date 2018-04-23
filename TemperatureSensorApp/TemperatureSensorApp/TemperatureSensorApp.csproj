@@ -9,7 +9,6 @@
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="2.0.2" />
     <PackageReference Include="Microcharts.Forms" Version="0.7.1" />
     <PackageReference Include="Microcharts" Version="0.7.1" />
-    <PackageReference Include="Xamarin.Auth" Version="1.6.0.2" />
   </ItemGroup>
 
   <ItemGroup>
