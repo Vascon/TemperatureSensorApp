@@ -29,7 +29,7 @@ namespace TemperatureSensorApp
                 var hour = new List<double>();
                 foreach(KeyValuePair<string,object> temp in history)
                 {
-                    if ((Convert.ToDateTime(temp.Key)).Hour==DateTime.Now.Hour-i)
+                    if ((Convert.ToDateTime(temp.Key)).Hour==DateTime.Now.Hour-i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year == DateTime.Today.Year)
                     {
                         hour.Add(Convert.ToDouble(temp.Value));
                     }
@@ -48,14 +48,14 @@ namespace TemperatureSensorApp
             {
                 var choosenhours = new List<double>();
 
-                for (int i = StartTimePicker.Time.Hours; i < EndTimePicker.Time.Hours; i++)
+                for (int i = StartTimePicker.Time.Hours; i <= EndTimePicker.Time.Hours; i++)
                 {
                     //Рассчитываем среднее значение для каждого часа за предыдущие 5 часов
 
                     var hour = new List<double>();
                     foreach (KeyValuePair<string, object> temp in history)
                     {
-                        if ((Convert.ToDateTime(temp.Key)).Hour == DateTime.Now.Hour - i)
+                        if ((Convert.ToDateTime(temp.Key)).Hour == i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year== DateTime.Today.Year)
                         {
                             hour.Add(Convert.ToDouble(temp.Value));
                         }

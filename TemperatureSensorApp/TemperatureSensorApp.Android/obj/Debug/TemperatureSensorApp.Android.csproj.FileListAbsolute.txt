@@ -112,6 +112,7 @@ C:/Users/ksvasil7/source/repos/TemperatureSensorApp/TemperatureSensorApp/Tempera
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/obj/Debug/R.cs.flag
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/obj/Debug/uploadflags.txt
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/bin/Debug/ImageCircle.Forms.Plugin.Abstractions.pdb
+/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/bin/Debug/Mono.Android.pdb
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/obj/Debug/linksrc/TemperatureSensorApp.Android.pdb
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/obj/Debug/linksrc/ImageCircle.Forms.Plugin.Abstractions.pdb
 /Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.Android/obj/Debug/linksrc/Mono.Android.pdb
