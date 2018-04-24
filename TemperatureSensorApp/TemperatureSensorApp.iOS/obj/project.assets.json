@@ -102,7 +102,7 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.1.444934": {
+      "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -232,7 +232,7 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Forms": "2.5.1.444934"
+          "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
           "bin/placeholder/TemperatureSensorApp.dll": {}
@@ -329,7 +329,7 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.1.444934": {
+      "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -459,7 +459,7 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Forms": "2.5.1.444934"
+          "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
           "bin/placeholder/TemperatureSensorApp.dll": {}
@@ -556,7 +556,7 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.1.444934": {
+      "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -686,7 +686,7 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Forms": "2.5.1.444934"
+          "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
           "bin/placeholder/TemperatureSensorApp.dll": {}
@@ -783,7 +783,7 @@
           "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll": {}
         }
       },
-      "Xamarin.Forms/2.5.1.444934": {
+      "Xamarin.Forms/2.5.0.280555": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -913,7 +913,7 @@
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
-          "Xamarin.Forms": "2.5.1.444934"
+          "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
           "bin/placeholder/TemperatureSensorApp.dll": {}
@@ -1078,6 +1078,7 @@
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.xml",
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.XML",
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.dll.mdb",
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.pdb",
         "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll",
         "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.pdb",
@@ -1099,10 +1100,10 @@
         "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
-    "Xamarin.Forms/2.5.1.444934": {
-      "sha512": "zDbZeFhh62l6cMG9dXrQ/CSbk+NxKAykeL+JcVxLn//Rx678sCa961F+ib0gqzNHkTmT1K3TPLlJZp5WjvnKVA==",
+    "Xamarin.Forms/2.5.0.280555": {
+      "sha512": "JVmozDJQNKEVhN4NG5EiG2IBua0+xK9b+t1L/VUN9HeIXkc8BubZM6UnnE1CftlGt0U2+JGTQSL79uxpx0KCpQ==",
       "type": "package",
-      "path": "xamarin.forms/2.5.1.444934",
+      "path": "xamarin.forms/2.5.0.280555",
       "files": [
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
@@ -1127,14 +1128,18 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
         "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
@@ -1277,7 +1282,7 @@
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.5.1.444934.nupkg.sha512",
+        "xamarin.forms.2.5.0.280555.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1289,36 +1294,47 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Microcharts >= 0.7.1",
+      "Microcharts.Forms >= 0.7.1",
       "TemperatureSensorApp >= 1.0.0",
-      "Xamarin.Forms >= 2.5.1.444934"
+      "Xam.Plugins.Forms.ImageCircle >= 2.0.2",
+      "Xamarin.Forms >= 2.5.0.280555"
     ]
   },
   "packageFolders": {
-    "/Users/vascon/.nuget/packages/": {}
+    "C:\\Users\\ksvasil7\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/TemperatureSensorApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\TemperatureSensorApp.iOS.csproj",
       "projectName": "TemperatureSensorApp.iOS",
-      "projectPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/TemperatureSensorApp.iOS.csproj",
-      "packagesPath": "/Users/vascon/.nuget/packages/",
-      "outputPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/obj",
+      "projectPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\TemperatureSensorApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\ksvasil7\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
       "configFilePaths": [
-        "/Users/vascon/.config/NuGet/NuGet.Config"
+        "C:\\Users\\ksvasil7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.csproj": {
-              "projectPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.csproj"
+            "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp\\TemperatureSensorApp.csproj": {
+              "projectPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp\\TemperatureSensorApp.csproj"
             }
           }
         }
@@ -1327,9 +1343,21 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "2.5.1.444934"
+            "version": "[2.5.0.280555, )"
           }
         }
       }

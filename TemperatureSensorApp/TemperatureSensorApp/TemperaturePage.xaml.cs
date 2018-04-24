@@ -10,14 +10,14 @@ using Xamarin.Forms.Xaml;
 
 namespace TemperatureSensorApp
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TemperaturePage : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class TemperaturePage : ContentPage
+    {
         private bool isCelsius = true;
 
-		public TemperaturePage ()
-		{
-			InitializeComponent ();
+        public TemperaturePage()
+        {
+            InitializeComponent();
 
             //Температура по дефолту
             CurrentTemperatureLabel.Text = "32";
@@ -30,7 +30,7 @@ namespace TemperatureSensorApp
             };
 
             //Таймер, срабатывающий раз в 1.5 секунды, для обновления интерфейса
-            int num = 0; 
+            int num = 0;
             // устанавливаем метод обратного вызова
             TimerCallback tm = new TimerCallback(Refresh);
             // создаем таймер
@@ -64,7 +64,7 @@ namespace TemperatureSensorApp
                 }
                 Application.Current.Properties[$"{DateTime.Now}"] = temptosave;
                 Application.Current.SavePropertiesAsync();
-            });    
+            });
         }
 
 
@@ -96,7 +96,7 @@ namespace TemperatureSensorApp
                 temp = ((Convert.ToDouble(temperature) - 32) * 5 / 9);
             }
 
-#region const
+            #region const
             if (temp < 34) return Color.FromHex("#9bbcff");
             if (temp >= 34 && temp <= 35) return Color.FromHex("#a1b7ff");
             if (temp >= 35 && temp <= 36) return Color.FromHex("#b5cdff");
@@ -113,7 +113,7 @@ namespace TemperatureSensorApp
             if (temp >= 46 && temp <= 47) return Color.FromHex("#ff6500");
             if (temp >= 47) return Color.FromHex("#ff3800");
 
-#endregion
+            #endregion
 
 
             return Color.FromHex("#ffece0");

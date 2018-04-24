@@ -11,8 +11,8 @@
 namespace TemperatureSensorApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSenso" +
-        "rApp/TemperaturePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp\\Temperat" +
+        "urePage.xaml")]
     public partial class TemperaturePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

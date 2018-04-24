@@ -24,17 +24,17 @@ namespace TemperatureSensorApp
             var lasthours = new List<double>();
 
             //Рассчитываем среднее значение для каждого часа за предыдущие 5 часов
-            for (int i = 0; i <= 5;i++)
+            for (int i = 0; i <= 5; i++)
             {
                 var hour = new List<double>();
-                foreach(KeyValuePair<string,object> temp in history)
+                foreach (KeyValuePair<string, object> temp in history)
                 {
-                    if ((Convert.ToDateTime(temp.Key)).Hour==DateTime.Now.Hour-i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year == DateTime.Today.Year)
+                    if ((Convert.ToDateTime(temp.Key)).Hour == DateTime.Now.Hour - i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year == DateTime.Today.Year)
                     {
                         hour.Add(Convert.ToDouble(temp.Value));
                     }
                 }
-                if (hour.Count()>0)
+                if (hour.Count() > 0)
                     lasthours.Add(hour.Average());
             }
 
@@ -55,7 +55,7 @@ namespace TemperatureSensorApp
                     var hour = new List<double>();
                     foreach (KeyValuePair<string, object> temp in history)
                     {
-                        if ((Convert.ToDateTime(temp.Key)).Hour == i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year== DateTime.Today.Year)
+                        if ((Convert.ToDateTime(temp.Key)).Hour == i && (Convert.ToDateTime(temp.Key)).Day == DateTime.Today.Day && (Convert.ToDateTime(temp.Key)).Month == DateTime.Today.Month && (Convert.ToDateTime(temp.Key)).Year == DateTime.Today.Year)
                         {
                             hour.Add(Convert.ToDouble(temp.Value));
                         }

@@ -12,12 +12,6 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
-    <activity android:label="Web Authenticator" android:name="md5719e249934bca077b67d8f77dc6da002.FormAuthenticatorActivity" />
-    <activity android:label="Web Authenticator" android:name="md5719e249934bca077b67d8f77dc6da002.WebAuthenticatorActivity" />
-    <activity android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" android:name="md5719e249934bca077b67d8f77dc6da002.WebViewActivity" />
-    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5719e249934bca077b67d8f77dc6da002.WebAuthenticatorNativeBrowserActivity" />
-    <receiver android:name="md5719e249934bca077b67d8f77dc6da002.CustomTabsActionsBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.TemperatureSensorApp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

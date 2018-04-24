@@ -13,8 +13,8 @@ namespace TemperatureSensorApp
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new TemperaturePage());
-		}
+            MainPage = new NavigationPage(new TemperaturePage());
+        }
 
 		protected override void OnStart ()
 		{
