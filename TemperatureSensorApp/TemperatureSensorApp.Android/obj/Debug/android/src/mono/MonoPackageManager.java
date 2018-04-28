@@ -113,6 +113,8 @@ class MonoPackageManager_Resources {
 		"Microcharts.dll",
 		"Microcharts.Droid.dll",
 		"Microcharts.Forms.dll",
+		"Plugin.BLE.Abstractions.dll",
+		"Plugin.BLE.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

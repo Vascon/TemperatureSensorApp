@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{65675C44-1278-4700-B2C8-681BDB2BC650}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TemperatureSensorApp/TemperatureSensorApp/ChartPage.xaml">
+    <Files>
+      <File FileName="TemperatureSensorApp/TemperatureSensorApp/TemperaturePage.xaml.cs" Line="129" Column="69" />
+      <File FileName="TemperatureSensorApp/TemperatureSensorApp/TemperaturePage.xaml" Line="43" Column="15" />
+      <File FileName="TemperatureSensorApp/TemperatureSensorApp/ChartPage.xaml.cs" Line="81" Column="13" />
+      <File FileName="TemperatureSensorApp/TemperatureSensorApp/ChartPage.xaml" Line="34" Column="78" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TemperatureSensorApp.Android PreferredExecutionTarget="Android.025b2a2c8562a8b8" />
+  <MultiItemStartupConfigurations />
+</Properties>

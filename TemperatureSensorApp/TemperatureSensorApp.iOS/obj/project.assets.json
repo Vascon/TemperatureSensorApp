@@ -30,6 +30,17 @@
           "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
+      "Plugin.BLE/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        }
+      },
       "SkiaSharp/1.59.1": {
         "type": "package",
         "compile": {
@@ -231,6 +242,7 @@
         "dependencies": {
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
+          "Plugin.BLE": "1.3.0",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -271,6 +283,17 @@
           "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
+      "Plugin.BLE/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        }
+      },
       "SkiaSharp/1.59.1": {
         "type": "package",
         "compile": {
@@ -458,6 +481,7 @@
         "dependencies": {
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
+          "Plugin.BLE": "1.3.0",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -498,6 +522,17 @@
           "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
+      "Plugin.BLE/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        }
+      },
       "SkiaSharp/1.59.1": {
         "type": "package",
         "compile": {
@@ -685,6 +720,7 @@
         "dependencies": {
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
+          "Plugin.BLE": "1.3.0",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -725,6 +761,17 @@
           "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
+      "Plugin.BLE/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.BLE.dll": {}
+        }
+      },
       "SkiaSharp/1.59.1": {
         "type": "package",
         "compile": {
@@ -912,6 +959,7 @@
         "dependencies": {
           "Microcharts": "0.7.1",
           "Microcharts.Forms": "0.7.1",
+          "Plugin.BLE": "1.3.0",
           "Xam.Plugins.Forms.ImageCircle": "2.0.2",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -951,6 +999,35 @@
         "lib/netstandard1.4/Microcharts.Forms.dll",
         "microcharts.forms.0.7.1.nupkg.sha512",
         "microcharts.forms.nuspec"
+      ]
+    },
+    "Plugin.BLE/1.3.0": {
+      "sha512": "5sD/YwTADSWES04iY28+Wc2alvq5kdPeH24oZuQxNiDTL0eAyxioJWdQ0JuKH6GyWNd9Zmv5006sgYcbNVwSwQ==",
+      "type": "package",
+      "path": "plugin.ble/1.3.0",
+      "files": [
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.XML",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.dll.mdb",
+        "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
+        "lib/MonoAndroid/Plugin.BLE.XML",
+        "lib/MonoAndroid/Plugin.BLE.dll",
+        "lib/MonoAndroid/Plugin.BLE.dll.mdb",
+        "lib/MonoAndroid/Plugin.BLE.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.XML",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.BLE.XML",
+        "lib/Xamarin.iOS10/Plugin.BLE.dll",
+        "lib/Xamarin.iOS10/Plugin.BLE.pdb",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.XML",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.Abstractions.pdb",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.XML",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Plugin.BLE.pdb",
+        "plugin.ble.1.3.0.nupkg.sha512",
+        "plugin.ble.nuspec"
       ]
     },
     "SkiaSharp/1.59.1": {
@@ -1302,39 +1379,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ksvasil7\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "/Users/vascon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\TemperatureSensorApp.iOS.csproj",
+      "projectUniqueName": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/TemperatureSensorApp.iOS.csproj",
       "projectName": "TemperatureSensorApp.iOS",
-      "projectPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\TemperatureSensorApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\ksvasil7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp.iOS\\obj\\",
+      "projectPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/TemperatureSensorApp.iOS.csproj",
+      "packagesPath": "/Users/vascon/.nuget/packages/",
+      "outputPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.iOS/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ksvasil7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/vascon/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp\\TemperatureSensorApp.csproj": {
-              "projectPath": "C:\\Users\\ksvasil7\\source\\repos\\TemperatureSensorApp\\TemperatureSensorApp\\TemperatureSensorApp.csproj"
+            "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.csproj": {
+              "projectPath": "/Users/vascon/Projects/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp/TemperatureSensorApp.csproj"
             }
           }
         }
@@ -1345,19 +1414,19 @@
         "dependencies": {
           "Microcharts": {
             "target": "Package",
-            "version": "[0.7.1, )"
+            "version": "0.7.1"
           },
           "Microcharts.Forms": {
             "target": "Package",
-            "version": "[0.7.1, )"
+            "version": "0.7.1"
           },
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "2.0.2"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[2.5.0.280555, )"
+            "version": "2.5.0.280555"
           }
         }
       }

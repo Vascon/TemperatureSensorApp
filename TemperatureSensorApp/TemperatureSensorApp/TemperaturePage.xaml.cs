@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+using Plugin.BLE;
+using Plugin.BLE.Abstractions.Contracts;
+using Plugin.BLE.Abstractions.Exceptions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,9 +17,18 @@ namespace TemperatureSensorApp
     {
         private bool isCelsius = true;
 
+
         public TemperaturePage()
         {
             InitializeComponent();
+           
+
+            this.Appearing += async (s, e) =>
+            {
+                //ВОТ СЮДА ВСТАВИТЬ ДЕВАЙССЁРЧ!!!!!!!!!!!
+                //DeviceSearch()
+            };
+
 
             //Температура по дефолту
             CurrentTemperatureLabel.Text = "32";
@@ -67,11 +78,111 @@ namespace TemperatureSensorApp
             });
         }
 
+        /// <summary>
+        /// Поиск BLE-устройства
+        /// </summary>
+        public async Task DeviceSearch()
+        {
+            ActI.IsRunning = true;
+
+            var ble = CrossBluetoothLE.Current;
+            var adapter = CrossBluetoothLE.Current.Adapter;
+            var deviceList = new List<IDevice>();
+            IDevice temperatureSensorDevice = null;
+            bool requiredDeviceFound = false;
+
+            //Ивент составление списка найденных устройств
+            adapter.DeviceDiscovered += (ss, a) => deviceList.Add(a.Device);
+
+            //Инициализация таска поиска устройств
+            await adapter.StartScanningForDevicesAsync();
+
+            try
+            {
+                //Если хоть что-то найдено
+                if (deviceList != null)
+                {
+                    //Ищем нужное устройство по Name
+                    foreach (IDevice device in deviceList)
+                    {
+                        if (device.Name != null && device.Name.Contains("MI Band 2"))
+                        {
+                            temperatureSensorDevice = device;
+                            requiredDeviceFound = true;
+                        }
+                    }
+                    //Если нужное устройство не найдено
+                    if (!requiredDeviceFound)
+                    {
+                        //Запустить данный метод рекурсивно
+                        await DeviceSearch();
+                    }
+                    //Если нужное устройство найдено и оно не null
+                    else
+                    if (temperatureSensorDevice != null)
+                    {
+                        //Коннектимся к нему
+                        await adapter.ConnectToDeviceAsync(temperatureSensorDevice);
+
+                        //var services = await temperatureSensorDevice.GetServicesAsync();
+
+                        //Выводим список сервисов данного устройства
+                        var service = await temperatureSensorDevice.GetServiceAsync(Guid.Parse("0000180a-0000-1000-8000-00805f9b34fb"));
+
+                        //Выводим список характеристик данного сервиса
+                        var characteristics = await service.GetCharacteristicsAsync();
+
+                        //Получаем данные из необходимой характеристики сервиса
+                        var temperature = await characteristics[0].ReadAsync();
+
+
+
+                        while (!!!!!!!!true)
+                        {
+                            //Конвертим его из UTF8
+                            string result = System.Text.Encoding.UTF8.GetString(temperature);
+
+                            var answer = await DisplayAlert("", result, "Оk","Cancel");
+
+                            if (!answer)
+                            {
+                                break;
+                            }
+
+                            await Task.Delay(TimeSpan.FromSeconds(3));
+
+                        }
+
+
+                        //var temperature1 = await characteristics[1].WriteAsync(new byte[] { 21, 2, 1 });
+                    }
+                    else
+                    {
+                    }
+                }
+
+            }
+            catch (Exception ee)
+            {
+                await DisplayAlert("", ee.Message, "Ок");
+            }
+
+            ActI.IsRunning = false;
+        }
+
 
         //Действие по нажатию на кнопку "Build"
-        void Build_Clicked(object sender, System.EventArgs e)
+        async void Build_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new ChartPage());
+        }
+
+        //Действие по нажатию на кнопку "Connect"
+        async void ConnectToBLE_Clicked(object sender, System.EventArgs e)
+        {
+            await DeviceSearch();
+
+            //Navigation.PushAsync(new ChartPage());
         }
 
         //Метод перевода из цельсия в фаренгейты и наоборот
